@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta name="description" content="VTOP : An Official VIT, Vellore Web Portal" />
+	<meta name=”robots” content=”NOODP,NOYDIR” />
+	<meta name="keywords" content="VTOP, vtop, SDC,sdc "/>
+    <!-- <base href="http://vtopcc.vit.ac.in:8080/vtop/"/> -->
+   	<meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta charset="utf-8"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    
+
+    <title>Vellore Institute of Technology (VIT)</title>
+    
+    
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>VIT - VTOP</title>
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+		<link rel="icon" type="image/png" href="http://vtopcc.vit.ac.in:8080/vtop/assets/img/favicon.png">
+		<link rel="stylesheet" href="http://vtopcc.vit.ac.in:8080/vtop/assets/jquery-ui/jquery-ui.css"/>
+		<link rel="stylesheet" href="http://vtopcc.vit.ac.in:8080/vtop/assets/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/css/bootstrapValidator.css"/>
+		<link rel="stylesheet" href="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/css/AdminLteCompatibility.css"/>
+		<link rel="stylesheet" href="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/css/VTopScrollbar.css"/>
+		<link rel="stylesheet" href="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/css/VTop.css"/>		
+		<link rel="stylesheet" href="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/css/scrollableTable.css" />
+		<script src="http://vtopcc.vit.ac.in:8080/vtop/assets/jquery/jquery-3.3.1.js"></script>
+	
+    
+</head>
+<body class="VTopBody">
+
+		
+	<div id="page_outline">
+
+		   	
+		   	
+		<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#2980B9;color:#EAF2F8">
+			  <div class="container">
+					<img src="http://vtopcc.vit.ac.in:8080/vtop/assets/img/vitlogo.png" class="img-responsive pull-left" alt="User Image" width="200" height="75">
+					<h3 class="pull-right" style="color: #fff;font-family:Times; font-size: 24px;">VTOP (Chennai Campus)</h3>
+			  </div>
+		</nav>
+
+		
+		<input type="hidden" value="" id="winImage">
+		<div id="page-wrapper" style="padding-top:150px;">
+		
+			<script>
+					/*<![CDATA[*/
+				var x = "local";
+				
+				/*]]>*/
+			</script>
+		
+		
+		
+			<section id="loginbox" class="col-md-4 col-md-offset-4">
+
+				<div class="box box-info">
+
+					<div class="box-header with-border">
+						<h3 class="box-title">VTOP Login</h3>
+					</div>
+
+					<div class="box-body">
+					
+						<form class="form-signin" id="form-signin_v1" action="doLogin" method="POST" autocomplete="off">
+						
+							<p class="box-title text-danger"></p>
+							<p class="box-title text-danger"></p>
+							<p class="box-title text-success"></p>
+
+							<div class="form-group has-feedback">
+								<input type="text" class="form-control bg-default" id="uname" name="uname" placeholder="Username" maxlength="20" onkeyup="this.value = this.value.toUpperCase()" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAV9JREFUOBGVVLuKg0AUvcpCQiB/sAuCYBNMYWtrs0Gwyi+s4E8k4kdItrHKL8h+h612uwRsBDtTiDtnYmbHxTy8kMx9nHP0zr2ohGH43nXdgf3e6AlTFOWbwT72+/0X4OoUMgj9gz7hwyDw1JMv8Mu/zFHlwiN/sViQYRgD2CQBTdPIcZxxgfl8Lgqz2YzYZYlYrolk77zgdF2XLMui4/FIVVVREAR0Op0oSZJB7T8Z8aQWxgSU3W7XoYDXbJqGY9DC+Xwew4sca/GHBb54gysZiEdkYNgoX9lxEAJI3rPtdkts+0jXdQGDyFMCpmnSarUSRNlR+92WcwN/uVzSZrPhUxkU+gAC/j0Rz/OormvK85xTsI2y/W2LnGX+dTroW7a2bSmKIpHiiySiESeOY55dr9dk2zalaTpA3RTAnHHLZVlyQpZlvJWiKIQAMDcFGAp3gw8N5k0QuoohBpkd/i9CoHzgkM8LEwAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" autocomplete="off"> <span class="glyphicon glyphicon-user form-control-feedback"></span>
+							</div>
+
+							<div class="form-group has-feedback">
+								<input type="password" class="form-control" id="passwd" name="passwd" placeholder="Password" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAV9JREFUOBGVVLuKg0AUvcpCQiB/sAuCYBNMYWtrs0Gwyi+s4E8k4kdItrHKL8h+h612uwRsBDtTiDtnYmbHxTy8kMx9nHP0zr2ohGH43nXdgf3e6AlTFOWbwT72+/0X4OoUMgj9gz7hwyDw1JMv8Mu/zFHlwiN/sViQYRgD2CQBTdPIcZxxgfl8Lgqz2YzYZYlYrolk77zgdF2XLMui4/FIVVVREAR0Op0oSZJB7T8Z8aQWxgSU3W7XoYDXbJqGY9DC+Xwew4sca/GHBb54gysZiEdkYNgoX9lxEAJI3rPtdkts+0jXdQGDyFMCpmnSarUSRNlR+92WcwN/uVzSZrPhUxkU+gAC/j0Rz/OormvK85xTsI2y/W2LnGX+dTroW7a2bSmKIpHiiySiESeOY55dr9dk2zalaTpA3RTAnHHLZVlyQpZlvJWiKIQAMDcFGAp3gw8N5k0QuoohBpkd/i9CoHzgkM8LEwAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" autocomplete="off"> <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+							</div>
+							
+							<!-- <div th:switch="${user.role}"> 
+								<p th:case="'admin'">User is an administrator</p>
+								<p th:case="#{roles.manager}">User is a manager</p>
+								<p th:case="*">User is some other thing</p> 
+							</div> -->
+
+							<!-- <th:text>local</th:text> -->
+							
+							<div>
+
+								<div align="center" id="captchaRefresh">
+							
+									<div class="col-md-offset-1"> 
+										<img alt="vtopCaptcha" src="data:image/png;base64, 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">
+											<button type="button" onclick="doRefreshCaptcha();" style="width:35px; border:none; background-color:white; background-repeat:no-repeat;">		
+											<img src="http://vtopcc.vit.ac.in:8080/vtop/assets/img/refresh_img.png" width="20px">
+											</button>									 
+										<input type="text" id="captchaCheck" style="margin-top: 5px; width: 70%" name="captchaCheck" placeholder="Captcha (CAPS &amp; NUMBERS ONLY)" maxlength="6" required="required" onkeyup="this.value = this.value.toUpperCase()">															
+									</div>
+								</div>  
+							</div>
+							
+							
+							<div class="box-footer">
+								<div class="col-xs-6">
+									<!-- <a href="resetPassword" class="pull-left need-help">Forgot Password </a><span class="clearfix"></span>
+									<a href="forgotUserID" class="pull-left need-help">Forgot UserID </a><span class="clearfix"></span> -->
+									<a href="javascript:resetPassword()" class="pull-left need-help">Forgot Password </a><span class="clearfix"></span>
+													<a href="javascript:forgotUserID()" class="pull-left need-help">Forgot UserID </a><span class="clearfix"></span>
+								</div>
+							
+							
+								<div class="row col-xs-6">
+										<a href="http://vtopcc.vit.ac.in:8080/vtop/" class="btn btn-primary pull-right">
+											Sign in
+										</a>
+
+								</div>	
+								<!-- <div th:if="${ipstatus=='local'}"> -->
+								<!-- 	<div class="row col-xs-12">
+										<button type="submit"  class="btn btn-primary pull-right">Sign
+										in</button> 
+								
+								</div> -->													
+							</div>
+						</form> 
+					</div>
+				</div>
+			</section>
+		</div>
+		
+
+			
+		<script src="https://www.google.com/recaptcha/api.js" async="async" defer="defer"></script>
+
+
+		<script>
+				function onSubmit(token) {
+				//  alert("ipstatus : "+ x);
+				var data="uname="+$("#uname").val()+"&passwd="+ encodeURIComponent($("#passwd").val())+"&g-recaptcha-response="+$("#g-recaptcha-response").val();
+				//	alert(data);
+					ajaxCall('doLogin',data,'page_outline');
+				//doc.submit();
+			}
+
+			function validate(event) {
+				//alert("2");
+				event.preventDefault();
+				//var usernameRegex = new RegExp("[a-zA-Z0-9]{4,10}");
+			/*  var usernameRegex=/^([a-zA-Z0-9]){4,20}$/;
+				var password = /^(.){8,}$/;
+				var username = document.getElementById('uname').value;
+				var passwd = document.getElementById('passwd').value;
+				if (!usernameRegex.test(username)) {
+				swal("Enter valid username!");
+				}else if (!password.test(passwd)) {
+				swal("Enter valid pasword!");
+				}else { */
+				if(x == 'local'){
+						var data="uname="+$("#uname").val()+"&passwd="+ encodeURIComponent($("#passwd").val())+"&captchaCheck="+$("#captchaCheck").val();
+						//alert(data);
+						ajaxCall('doLogin',data,'page_outline');
+				}else{ 
+					grecaptcha.execute();
+				}
+					
+				//}
+			}
+
+			function onload() {
+				//alert("3");
+				var element = document.getElementById('captcha');
+				element.onclick = validate;
+			}
+			onload();
+		</script>
+	</div>
+
+	<div class="modal fade" id="myModalFooter" role="dialog">
+		<div class="modal-dialog">		  
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title" style="color:red;">Sorry !!!</h4>
+			</div>
+			<div class="modal-body">
+			<p style="color:green;">This page is under Construction !!! Please try later</p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		
+		</div>
+	</div>
+
+	<script src="http://vtopcc.vit.ac.in:8080/vtop/assets/jquery/jquery-3.3.1.js"></script>
+	<script src="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/moment.js"></script>
+	<script src="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/jquery.hotkeys.js"></script>
+	<script src="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/jquery.slimscroll.js"></script>
+	<script src="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/jquery.blockUI.js"></script>		
+	<script src="http://vtopcc.vit.ac.in:8080/vtop/assets/jquery-ui/jquery-ui.js"></script>
+	<script src="http://vtopcc.vit.ac.in:8080/vtop/assets/bootstrap/js/bootstrap.js"></script>
+	<script src="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/bootstrapValidator.js"></script>
+	<script src="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/vtop-validation.js"></script>
+	<script type="text/javascript" src="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/vit-custom.js"></script>
+	<script type="text/javascript" src="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/jquery.validationEngine-en.js" ></script>
+	 <script type="text/javascript" src="http://vtopcc.vit.ac.in:8080/vtop/assets/plugins/jquery.validationEngine.js" ></script>
+	
+ 		<script type="text/javascript">
+		
+			window.onload = function() {
+				document.onkeydown = function(e) {
+					return (e.which || e.keyCode) != 116;
+				};
+			    $("body").css("padding-top", $(".navbar-fixed-top").height());
+			}
+			
+			history.pushState(null, null, document.URL);
+			window.addEventListener('popstate', function() {
+				history.pushState(null, null, document.URL);
+			});
+
+		
+			/* $(window).bind("onunload", function() { 
+				$.blockUI();
+				ajaxCall("/cloneLogout",null,null);
+				$.unblockUI();
+			}) */
+
+		
+			$(document).bind('keydown', 'alt+right', function(e) {
+				e.preventDefault();
+			});
+
+			$(document).bind('keydown', 'alt+left', function(e) {
+				e.preventDefault();
+			});
+			
+			history.pushState(null, null, document.URL);
+			window.addEventListener('popstate', function() {
+				history.pushState(null, null, document.URL);
+			});
+ 			
+			$(window).on("unload",function() {
+				$.ajax({
+					type : "POST",
+					url : "cloneLogout",
+					success : function(response){
+					},
+					error : function(jqXHR, textStatus, errorMessage) {
+					}		
+				})
+			}); 
+
+			function doRefreshCaptcha() 
+			{
+	
+				$.ajax({
+					url : "doRefreshCaptcha",									
+					type : "POST",
+					cache : false,
+					processData : false,
+					contentType : false,
+					success : function(response)				
+					{	
+						$("#captchaRefresh").html(response);
+						
+					
+					}
+			 	});
+			}
+			
+		</script>
+			
+			
+		<script>
+			/*<![CDATA[*/
+			
+
+			
+			function resizeDiv() {
+				
+			/*  				var winHeight=$( window ).height()-95;
+				$("body").css("height",winHeight+"px");
+				$("#page-content").css("height",winHeight+"px");
+				$("#sidebar-wrapper").css("height",winHeight+"px");*/
+			
+ 			}
+ 
+		   /* $("html").on("contextmenu",function(e){
+		        return false;
+		     });
+
+		     window.oncontextmenu = function () {
+		     return false;
+		     }
+		     $(document).keydown(function (event) {
+		     if (event.keyCode == 123) {
+		     return false;
+		     }
+		     else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
+		     return false;
+		     }
+		     }); */
+		 
+			 function resetPassword() {
+			  ajaxCall('http://vtopcc.vit.ac.in:8080/vtop/resetPassword',null,'page_outline');
+			  window.location.href = "http://vtopcc.vit.ac.in:8080/vtop/";
+			}
+			 
+			function forgotUserID() {
+			  ajaxCall('http://vtopcc.vit.ac.in:8080/vtop/forgotUserID',null,'page_outline');
+			  window.location.href = "http://vtopcc.vit.ac.in:8080/vtop/";
+			}			
+
+			function validateOTP() {
+				var data="otp="+$("#otp").val();
+				ajaxCall('validateParentLoginOtp',data,'page_outline');
+				window.location.href = "http://vtopcc.vit.ac.in:8080/vtop/";
+			}
+			
+			function openPage()	{
+				ajaxCall("http://vtopcc.vit.ac.in:8080/vtop/vtopLogin",null,"page_outline");
+				window.location.href = "http://vtopcc.vit.ac.in:8080/vtop/";
+			}
+			
+			function openParentPage()	{
+				ajaxCall("http://vtopcc.vit.ac.in:8080/vtop/vtopParentLogin",null,"page_outline");
+				window.location.href = "http://vtopcc.vit.ac.in:8080/vtop/";
+			}
+			
+			function openAlumniPage()	{
+				ajaxCall("http://vtopcc.vit.ac.in:8080/vtop/alumni/alumniLoginPageControl",null,"page_outline");
+				window.location.href = "http://vtopcc.vit.ac.in:8080/vtop/";
+			}
+			
+
+			
+			
+			/*]]>*/
+		</script>			
+			
+	
+
+</body>
+</html>
